@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olamide Olaniyan - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .header {
+            background: #343a40;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+        }
+
+        .portfolio-section {
+            padding: 60px 0;
+        }
+
+        .project-card {
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .footer {
+            background: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .project-card img {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Olamide Olaniyan</h1>
+        <p>Full Stack Software Engineer | Web Scraping Specialist</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/olamideolaniyan" class="text-light">Olamide Olaniyan</a> | GitHub:
+            <a href="https://github.com/Olamide-Olaniyan" class="text-light">Olamide-Olaniyan</a>
+        </p>
+        <p>Email: <a href="mailto:olaniyanolamide42@gmail.com" class="text-light">olaniyanolamide42@gmail.com</a></p>
+    </div>
+
+    <!-- About Section -->
+    <section class="container mt-5">
+        <h2>About Me</h2>
+        <p>
+            I'm a full-stack developer with over 3 years of experience in building innovative and user-friendly
+            applications. From creating seamless front-end experiences using React and Next.js to backend work with
+            Node.js and PHP/Laravel, I bring versatility and passion to every project.
+            Recently, I've been diving into web scraping with JavaScript, building scripts to collect and analyze data
+            from various websites.
+        </p>
+    </section>
+
+    <!-- Scraping Projects Section -->
+    <section class="container mt-5">
+        <h2>Web Scraping Projects</h2>
+        <p>Below are some of the web scraping scripts I've developed. Click on each for more details:</p>
+        <ul>
+            <li><a href="scraping.html#jumia-scraper">Jumia.com.ng Scraper</a></li>
+            <li><a href="scraping.html#konga-scraper">Konga.com Scraper</a></li>
+            <li><a href="scraping.html#dfsa-scraper">DFSA Public Register Scraper</a></li>
+            <!-- <li><a href="scraping.html#crexi-scraper">Crexi Real Estate Scraper</a></li>
+            <li><a href="scraping.html#realestate-au-scraper">Realestate.com.au Scraper</a></li> -->
+        </ul>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section bg-light">
+        <div class="container">
+            <h2 class="text-center">My Projects</h2>
+            <div class="row mt-4">
+
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img class="card-img-top"
+                            src="https://cdn.prod.website-files.com/62256168ebef95246c2ad38a/63e1e2b5acf0460e3e22830a_image-20230206-085236.png"
+                            alt="Insights">
+                        <div class="card-body">
+                            <h5 class="card-title">AM Insights</h5>
+                            <p class="card-text">A React-based platform that provides actionable investment insights.
+                            </p>
+                            <a href="https://www.aminsights.com/" class="btn btn-primary" target="_blank">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img class="card-img-top" src="https://i.ibb.co/S03M58B/Screenshot-6.png" alt="Ecotracker">
+                        <div class="card-body">
+                            <h5 class="card-title">Ecotracker</h5>
+                            <p class="card-text">A WordPress site tracking environmental impact and sustainability data.
+                            </p>
+                            <a href="https://ecotracker.io/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="card project-card">
+                        <img class="card-img-top" src="https://www.etfstream.com/images/etfstream_card_image.png"
+                            alt="ETFStream">
+                        <div class="card-body">
+                            <h5 class="card-title">ETFStream</h5>
+                            <p class="card-text">A React-based financial media platform focused on exchange-traded
+                                funds.</p>
+                            <a href="https://www.etfstream.com/" class="btn btn-primary" target="_blank">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-4 mt-4">
+                    <div class="card project-card">
+                        <img class="card-img-top"
+                            src="https://assets.venues.othership.com/uploads/2021/04/Pledge-the-otherway.jpg"
+                            alt="Othership">
+                        <div class="card-body">
+                            <h5 class="card-title">Othership</h5>
+                            <p class="card-text">A WordPress-based platform for coworking spaces and remote work.</p>
+                            <a href="https://othership.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-md-4 mt-4">
+                    <div class="card project-card">
+                        <img class="card-img-top" src="https://i.ibb.co/1GKFxSm/Screenshot-7.png" alt="Coho">
+                        <div class="card-body">
+                            <h5 class="card-title">Coho</h5>
+                            <p class="card-text">A React-based community platform designed to foster shared living.</p>
+                            <a href="https://www.joincoho.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-md-4 mt-4">
+                    <div class="card project-card">
+                        <img class="card-img-top" src="https://i.ibb.co/r0fk4SL/Screenshot-8.png" alt="Peslad Foods">
+                        <div class="card-body">
+                            <h5 class="card-title">Peslad Foods</h5>
+                            <p class="card-text">A WordPress-based website for a Nigerian food company.</p>
+                            <a href="https://pesladfoods.com.ng/" class="btn btn-primary" target="_blank">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="col-md-4 mt-4">
+                    <div class="card project-card">
+                        <img class="card-img-top" src="https://i.ibb.co/MZnDGj4/Screenshot-9.png"
+                            alt="ABExpress Fitness">
+                        <div class="card-body">
+                            <h5 class="card-title">ABExpress Fitness</h5>
+                            <p class="card-text">A WordPress-based fitness platform for personalized training programs.
+                            </p>
+                            <a href="http://abexpressfitness.com/" class="btn btn-primary" target="_blank">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Olamide Olaniyan | Full Stack Developer | &copy; 2024</p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
